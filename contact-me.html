@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>My Contact Details</h1>
+    <p>055 51 99195 4506</p>
+    <p>My Fictional Address</p>
+    <p>myemail@gmail.com</p>
+
+    <!-- enctype: Os valores digitados no form irão aparecer para o email somente como texto. Não haverão valores de código no corpo do texto do email. -->
+    <form enctype="text/plain" action="mailto: gui_30@hotmail.com" method="post">
+        <label for="">Your Name:</label>
+        <input type="text" name="yourName" value=""> <br> <br>
+
+        <label for="email">Your Email:</label>
+        <input type="email" name="yourEmail" value=""> <br><br>
+
+        <label for="messageContent">Your Message:</label><br>
+        <textarea name="yourMessage" id="messageContent" cols="30" rows="5"></textarea><br>
+
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>
